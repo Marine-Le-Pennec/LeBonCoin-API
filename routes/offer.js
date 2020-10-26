@@ -18,7 +18,7 @@ cloudinary.config({
   });
 
 // Import Model
-const Offer = require("../models/Offer.js");
+const Offer = require("../Models/Offer.js");
 
 // -----------------------------------------------------------------------------------------------------
 
