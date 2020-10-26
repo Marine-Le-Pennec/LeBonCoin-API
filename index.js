@@ -20,13 +20,6 @@ mongoose.connect(process.env.MONGODB_URI,
       useCreateIndex: true,
     }
  );
- app.get("/", function (req, res) {
-  res.send("Bienvenue sur l'API Leboncoin");
-});
-
-//  Import des models
-// require ("./Models/User.js")
-// require ("./Models/Offer.js")
 
 // Import des routes
 const userRoutes = require("./routes/user");
